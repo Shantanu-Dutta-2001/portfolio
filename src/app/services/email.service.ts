@@ -7,9 +7,9 @@ import emailjs from "@emailjs/browser";
 })
 export class EmailService {
   private readonly EMAILJS_CONFIG = {
-    SERVICE_ID: "your_service_id",
-    TEMPLATE_ID: "your_template_id",
-    PUBLIC_KEY: "your_public_key",
+    SERVICE_ID: "service_sw37ss6",
+    TEMPLATE_ID: "emplate_noo0ps6",
+    PUBLIC_KEY: "FgGUVwu7gXmpn4K74",
   };
 
   async sendContactEmail(formData: ContactForm): Promise<void> {
